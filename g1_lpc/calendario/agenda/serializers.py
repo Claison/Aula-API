@@ -26,4 +26,4 @@ class UsuarioCompromissoSerializer(serializers.HyperlinkedModelSerializer):
 class TipoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model=Tipo
-        fields=('nome')
+        fields=('nome',)

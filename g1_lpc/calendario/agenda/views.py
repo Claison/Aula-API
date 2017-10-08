@@ -49,5 +49,5 @@ class UsuarioCompromissoViewSet(viewsets.ModelViewSet):
     serializer_class=UsuarioCompromissoSerializer
 
 class TipoViewSet(viewsets.ModelViewSet):
-    queryset=Tipo.itens()
+    queryset=Tipo.objects.all()
     serializer_class=TipoSerializer
